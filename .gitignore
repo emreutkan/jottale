@@ -1,0 +1,19 @@
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# SPM build artifacts
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+*.swp
+
+# ML model files (large binary assets – store in LFS or distribute separately)
+SoulReaderApp/Resources/Models/*.mlmodelc
+SoulReaderApp/Resources/Models/*.onnx
+SoulReaderApp/Resources/Models/*.mlpackage
